@@ -1,9 +1,9 @@
-public class MiddleSchool extends School {
+public class MiddleSchool extends School implements PizzaConstants{
 
     public void describeLevel()
     {
         System.out.println("This is a middle school " +
-                "serving grades 7 and 8");
+                "serving grades 7 and 8 owned by " + COMPANY); 
     }
 
     public void schoolName(String name)
